@@ -1,0 +1,260 @@
+@charset "UTF-8";
+
+html, body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    width: 100%;
+}
+
+p{
+    color: #737373;
+    line-height: 1.7em;
+}
+
+h2{
+    font-size: 1.8em;
+}
+
+h3{
+    font-size: 1.3em;
+    margin: 0.5em 0;
+}
+
+header{
+    width: 100%;
+    padding: 2em 1em;
+    box-sizing: border-box;
+}
+
+.header-nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.sec1-img{
+    display: none;
+}
+
+.chirp-link{
+    text-decoration: none;
+    color: #3180f5;
+    font-weight: 700;
+    font-size: 1.5em;
+    font-style: italic;
+}
+
+.contain{
+    padding: 0 1em;
+}
+
+#menu{
+    display: none;
+}
+
+.menu-list{
+    padding: 0;
+    text-align: center;
+    margin: 0;
+}
+
+.menu-list li{
+    list-style: none;
+    width: 100%;
+    text-align: center;
+    padding: 0.5em 0;
+    cursor: pointer;
+}
+
+button{
+    padding: 0;
+    background-color: #1da1f2;
+    border: none;
+}
+
+.btn-nav{
+    width: 100%;
+    padding: 0;
+}
+
+.twt-logo{
+    width: 4%;
+    margin-right: 0.1em;
+}
+
+.btn-link{
+    text-decoration: none;
+    background-color: #1da1f2;
+    padding: 0.5em;
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    color: white;
+    font-size: 1.2em;
+    font-weight: 700;
+}
+
+.sec1 h1{
+    font-size: 2.3em;
+    margin: 0;
+}
+
+.sec1-text p{
+    margin-top: 0.5em;
+}
+
+.btn-sec{
+    width: 100%;
+}
+
+.more-info{
+    text-decoration: none;
+    width: 100%;
+    display: block;
+    text-align: center;
+    margin: 1em 0;
+    color: #3180f5;
+    font-weight: 600;
+}
+
+.link-color{
+    color: #3180f5;
+    font-weight: bold;
+}
+
+.main-article{
+    margin: 5em 0;
+}
+
+.features{
+    border: 1px solid #ccc;
+    margin-bottom: 1em;
+    padding: 1em;
+}
+
+.features p{
+    margin: 0;
+}
+
+.emoji{
+    font-size: 1.3em;
+}
+
+.sec2{
+    padding: 0.1em 1em 1em;
+    background-color: #d7f5f5;
+}
+
+.sec2 h2{
+    margin: 1.2em 0;
+    text-align: center;
+}
+
+.avatar-tweet{
+    background:white;
+    margin-bottom: 1em;
+    padding: 1em;
+}
+
+.avatar-user{
+    display: flex;
+    justify-content: space-between;
+}
+
+.avatar-username{
+    display: flex;
+    align-items: center;
+    width: 50%;
+}
+
+.avatar-username p{
+    margin: 0;
+    line-height: 1.2em;
+}
+
+.avatar-name{
+    font-weight: bold;
+    color: black;
+}
+
+.username{
+    font-size: 0.8em;
+}
+
+.avatar{
+    width: 30%;
+    height: auto;
+    margin-right: 0.5em;
+}
+
+.like-date{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.like-date span{
+    display: flex;
+    align-items: center;
+}
+
+.like-date span img{
+    margin-right: 0.5em;
+}
+
+.sec3{
+    padding: 0 1em;
+}
+
+.sec3-text{
+    text-align: center;
+    padding: 1em;
+}
+
+.sec3-offer{
+    padding: 1em 2em;
+    border-radius: 0.8em;
+    border: 1px solid #ffad23;
+    background: #fbf8f3;
+}
+
+.sec3 h3{
+    color: #737373;
+    font-weight: 400;
+}
+
+.price{
+    font-size: 3.5em;
+}
+
+.plan-features{
+    display: flex;
+    align-items: start;
+}
+
+.plan-features p{
+    margin: 0 0 1em 0.5em;
+}
+
+footer{
+    margin-top: 2em;
+    padding: 1em 1em 2em;
+    background-color: #d7f5f5;
+}
+
+footer a:nth-child(1){
+    display: block;
+    margin-bottom: 1em;
+    text-align: center;
+}
+
+.footer-link{
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-link a{
+    color: black;
+    text-decoration: none;
+}
+
