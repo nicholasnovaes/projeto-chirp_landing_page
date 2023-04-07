@@ -371,3 +371,33 @@ footer{
 
 }
 
+@media  screen and (min-width:1024px) {
+
+    header{
+    padding: 2.5em 8em;
+}
+
+.contain{
+    padding: 0 8em;
+}
+
+.sec1{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+
+.sec1-text{
+    width: 50%;
+}
+
+.sec1-img-container{
+    width: 45%;
+}
+
+.sec1 h1{
+    font-size: 2.5em;
+    margin-bottom: 1em;
+}
+
+}

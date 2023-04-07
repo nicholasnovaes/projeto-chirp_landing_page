@@ -31,8 +31,13 @@
     <main>
         <section class="sec1 contain">
             
-                <div>
-                    <img src="images/Hero Image (Tablet View).png" alt="Graphic" class="sec1-img">
+                <div class="sec1-img-container">
+                    
+                    <picture>
+                        <source media="(max-width:1024px)" srcset="images/hero-tablet.png">
+                        <img src="images/hero-desktop.png" alt="Graphic" class="sec1-img">
+                    </picture>
+                   
                 </div>
 
                <div class="sec1-text">
