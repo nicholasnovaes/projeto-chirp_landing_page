@@ -66,33 +66,38 @@ header{
     cursor: pointer;
 }
 
+.btn-link{
+    display: block;
+    width: 100%;
+    padding: 0.5em 0;
+    font-size: 1.2em;
+    font-weight: 700;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+
+.btn-sec{
+    border-radius: 8px;
+}
+
+.btn-sec-link{
+    padding: 1em 0;
+}
+
 button{
     padding: 0;
+    width: 100%;
     background-color: #1da1f2;
     border: none;
 }
 
-.btn-nav{
-    width: 100%;
-    padding: 0;
-}
-
 .twt-logo{
-    width: 4%;
     margin-right: 0.1em;
+    max-width: 1.1em;
 }
 
-.btn-link{
-    text-decoration: none;
-    background-color: #1da1f2;
-    padding: 0.5em;
-    display: block;
-    width: 100%;
-    box-sizing: border-box;
-    color: white;
-    font-size: 1.2em;
-    font-weight: 700;
-}
+
 
 .sec1 h1{
     font-size: 2.3em;
@@ -103,9 +108,6 @@ button{
     margin-top: 0.5em;
 }
 
-.btn-sec{
-    width: 100%;
-}
 
 .more-info{
     text-decoration: none;
@@ -161,30 +163,28 @@ button{
     justify-content: space-between;
 }
 
-.avatar-username{
+.avatar-name{
     display: flex;
     align-items: center;
-    width: 50%;
 }
 
-.avatar-username p{
+.avatar-name p{
     margin: 0;
     line-height: 1.2em;
-}
-
-.avatar-name{
-    font-weight: bold;
     color: black;
+    font-size: 1em;
+    font-weight: 700;
+   margin-left: .5em;
 }
 
-.username{
-    font-size: 0.8em;
+.avatar-name span{
+    font-size: 0.9em;
+    font-weight: normal;
+    color: #737373;
 }
 
 .avatar{
-    width: 30%;
-    height: auto;
-    margin-right: 0.5em;
+    width: 3.5em;
 }
 
 .like-date{
@@ -236,21 +236,21 @@ button{
     margin: 0 0 1em 0.5em;
 }
 
+hr{
+    margin-bottom: 1em;
+}
+
 footer{
     margin-top: 2em;
     padding: 1em 1em 2em;
     background-color: #d7f5f5;
 }
 
-footer a:nth-child(1){
-    display: block;
-    margin-bottom: 1em;
-    text-align: center;
-}
-
 .footer-link{
     display: flex;
     justify-content: space-around;
+    align-items: center;
+    margin-top:1em ;
 }
 
 .footer-link a{
