@@ -172,9 +172,8 @@ button{
     margin: 0;
     line-height: 1.2em;
     color: black;
-    font-size: 1em;
     font-weight: 700;
-   margin-left: .5em;
+    margin-left: .5em;
 }
 
 .avatar-name span{
@@ -202,9 +201,6 @@ button{
     margin-right: 0.5em;
 }
 
-.sec3{
-    padding: 0 1em;
-}
 
 .sec3-text{
     text-align: center;
@@ -256,5 +252,122 @@ footer{
 .footer-link a{
     color: black;
     text-decoration: none;
+}
+
+
+@media screen and (min-width:768px){
+
+    header{
+        padding: 2.5em 2em;
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+    }
+
+    .contain{
+        padding: 0 2em;
+    }
+
+    .hamburger{
+        display: none;
+    }
+
+    #menu{
+        display: flex;
+    }
+
+    .menu-list{
+        display: flex;
+        align-items: center;
+    }
+
+    .menu-list li{
+        padding: 0.5em 1em;
+        font-size: 1.2em;
+    }
+
+    .btn-nav{
+        border-radius: 8px;
+    }
+
+    .btn-nav-link{
+        padding: 1em 1.5em;
+        box-sizing: border-box;
+    }
+
+    .btn-link{
+        font-size: 1.4em;
+    }
+
+    .sec1-img{
+        display: block;
+        width: 100%;
+        margin-bottom: 2em;
+    }
+
+    p{
+        font-size: 1.2em;
+    }
+
+    .sec1-link{
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    .btn-sec{
+        width: auto;
+        margin-bottom: 1em;
+    }
+
+    .btn-sec-link{
+        padding: 1em 1.5em;
+        box-sizing: border-box;
+    }
+
+    .more-info{
+        text-align: start;
+        width: auto;
+        margin-left: 1em;
+    }
+
+.tweets{
+    display: flex;
+    overflow-x: scroll;
+    align-items: flex-start;
+}
+
+.avatar-tweet{
+    min-width: 25em;
+    margin-right: 2em;
+}
+
+.sec2{
+    padding: 0.1em 0 1em 2em;
+}
+
+.sec3{
+    padding: 0 4em;
+}
+
+.btn-start{
+    width: 100%;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    justify-content: baseline;
+    padding: 2em;
+}
+
+.footer-link{
+    margin-top: 0;
+}
+
+.footer-link a{
+    margin-left: 1em;
+    font-size: 1.2em;
+}
+
 }
 
