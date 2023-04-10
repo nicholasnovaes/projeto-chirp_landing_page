@@ -400,4 +400,36 @@ footer{
     margin-bottom: 1em;
 }
 
+.features-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    column-gap: 2.5em;
+    row-gap: 1.5em;
+}
+
+.avatar-tweet{
+    min-width: 19em;
+    max-width: 19em;
+    margin: 0 0.5em;
+    margin-bottom: 0.5em;
+}
+
+.sec2{
+    padding: 0.1em 8em 2em;
+}
+
+.tweets{
+    justify-content: space-between;
+}
+
+
+.sec3{
+    padding: 0 24em;
+}
+
+footer{
+    padding: 2em 8em;
+}
+
 }
